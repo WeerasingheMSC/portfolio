@@ -2,6 +2,7 @@ import React from 'react'
 import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { cn } from '@/lib/utils'
 import { gridItems } from '@/Data'
+import { it } from 'node:test'
 
 const Grid = () => {
   return (
@@ -12,7 +13,9 @@ const Grid = () => {
         id = {item.id}
         key={item.id}
         title={item.title}
-        description={item.description}/>
+        description={item.description}
+        className={item.className}
+        />
         ))}
       </BentoGrid>
     </section>
