@@ -3,9 +3,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { FaBars, FaTimes } from 'react-icons/fa'
-
 const navLinks = [
-  { href: '#about', label: 'About' },
+  { href: '#about', label: 'about' },
   { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
   { href: '#contact', label: 'Contact' },
@@ -18,12 +17,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-md shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-8 flex items-center justify-between h-16">
         {/* Logo or Brand */}
-        <Link href="/" className="text-xl font-bold bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-          MSC Portfolio
+        <Link href="/" className="text-2xl font-stretch-expanded font-bold bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
+        Portfolio
         </Link>
 
         {/* Desktop Links */}
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex gap-18">
           {navLinks.map(link => (
             <a
               key={link.href}
