@@ -15,7 +15,7 @@ const Button = ({
     {/* Animated gradient border */}
     <div className="absolute inset-0 rounded-lg animated-gradient-border" />
     {/* Button content */}
-    <div className={`relative px-7 py-2 inline-flex cursor-pointer md:px-13 gap-2 bg-black rounded-[6px] group transition duration-200 text-white hover:bg-transparent ${otherClasses}`}>
+    <div className={`relative px-7 py-2 inline-flex cursor-pointer md:px-13 gap-2 rounded-[6px] group transition duration-200 text-white hover:bg-transparent ${otherClasses}`}>
       {position === "left" && icon}
       {title}
       {position === "right" && icon}
