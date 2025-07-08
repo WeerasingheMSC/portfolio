@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./globals.css";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
+import RecentProjects from "@/components/ResentProject";
 export default function Home() {
   return (
     <main className="relative bg-black-100 flex justify-center items-center
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <Hero />
         <Grid />  
+        <RecentProjects />
       </div>
     </main>
   );
