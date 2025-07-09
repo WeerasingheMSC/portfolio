@@ -7,7 +7,7 @@ const ResentProject = () => {
   return (
     <div className='py-20' id={'projects'}>
         <h1 className='heading text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-10'>
-            A small selection of {' '}
+            A small selection of my{' '}
             <span className='text-purple-300'>recent projects</span>
         </h1>
         <div className='flex flex-wrap item-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
