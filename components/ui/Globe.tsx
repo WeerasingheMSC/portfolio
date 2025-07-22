@@ -156,7 +156,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
     );
 
     globeRef.current
-      .hexPolygonsData((countries as { features: any[] }).features)
+      .hexPolygonsData((countries as { features: Record<string, unknown>[] }).features)
       .hexPolygonResolution(3)
       .hexPolygonMargin(0.7)
       .showAtmosphere(defaultProps.showAtmosphere)
