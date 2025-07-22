@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Button = ({
-    title, icon, position,handleClick,otherClasses}
+    title, icon, position,otherClasses}
     :{
     title: string;
     icon?: React.ReactNode;
