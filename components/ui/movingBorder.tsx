@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import {
   motion,
   useAnimationFrame,
@@ -7,39 +7,50 @@ import {
   useMotionValue,
   useTransform,
 } from "motion/react";
-import { useRef } from "react";
 import { cn } from "@/lib/utils";
 
-export function Button({
-  borderRadius = "1.75rem",
-  children,
-  as: Component = "button",
-  containerClassName,
-  borderClassName,
-  duration,
-  className,
-  ...otherProps
-}: {
+
+type ButtonCustomProps<T extends React.ElementType> = {
   borderRadius?: string;
   children: React.ReactNode;
-  as?: any;
+  as?: T;
   containerClassName?: string;
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
-}) {
-  return (
-    <Component
-      className={cn(
+};
+
+type ButtonProps<T extends React.ElementType> = ButtonCustomProps<T> & Omit<React.ComponentPropsWithoutRef<T>, keyof ButtonCustomProps<T>>;
+
+export function Button<T extends React.ElementType = "button">(props: ButtonProps<T>) {
+  const {
+    borderRadius = "1.75rem",
+    children,
+    as,
+    containerClassName,
+    borderClassName,
+    duration,
+    className,
+    ...rest
+  } = props;
+  const Component = as || "button";
+
+  // Separate custom props from native props
+  const nativeProps = rest as Omit<React.ComponentPropsWithoutRef<T>, keyof ButtonCustomProps<T>>;
+
+  return React.createElement(
+    Component,
+    {
+      className: cn(
         "relative md:col-span-2 overflow-hidden bg-transparent p-[1px] text-xl",
         containerClassName,
-      )}
-      style={{
+      ),
+      style: {
         borderRadius: borderRadius,
-      }}
-      {...otherProps}
-    >
+      },
+      ...nativeProps,
+    },
+    <>
       <div
         className="absolute inset-0"
         style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
@@ -65,7 +76,7 @@ export function Button({
       >
         {children}
       </div>
-    </Component>
+    </>
   );
 }
 
@@ -82,7 +93,7 @@ export const MovingBorder = ({
   ry?: string;
   [key: string]: any;
 }) => {
-  const pathRef = useRef<any>(null);
+  const pathRef = useRef<SVGRectElement | null>(null);
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
