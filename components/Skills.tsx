@@ -1,8 +1,6 @@
 import { Skill } from "@/Data";
 import React from "react";
 import { Button } from "./ui/movingBorder";
-// Removed unused iconLists array. Use card.iconLists from workExperience data.
-
 const Skills = () => {
   return (
     <div className="py-20" id={"skills"}>

@@ -1,5 +1,4 @@
 import { projects } from '@/Data/index'
-import { div } from 'motion/react-client'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 

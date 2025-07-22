@@ -1,6 +1,6 @@
 // components/Navbar.tsx
 'use client'
-import React, { use, useState, useEffect } from 'react'
+import React, {useState, useEffect } from 'react'
 import Link from 'next/link'
 import { FaBars, FaTimes } from 'react-icons/fa'
 
