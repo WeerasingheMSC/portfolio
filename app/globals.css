@@ -11,12 +11,19 @@
   }
 }
 
+@keyframes move-border {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
 .animated-gradient-border {
   background: linear-gradient(90deg, #6366f1, #a21caf, #6366f1, #a21caf);
   background-size: 200% 200%;
   animation: gradient-move 3s linear infinite;
 }
-
+.animate-move-border {
+  animation: move-border 1.5s infinite linear;
+}
 @theme inline {
   --animate-spotlight: spotlight 2s ease 0.75s 1 forwards;
   --color-black-default: #000;

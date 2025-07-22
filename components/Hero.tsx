@@ -10,7 +10,7 @@ import { FaGithub,FaFacebook,FaLinkedin,FaTwitter,FaDownload } from 'react-icons
 
 const Hero = () => {
   return (
-    <div id="Hero" className={`pb-20 pt-36`}>
+    <div id="Home" className={`pb-20 pt-36`}>
       <Navbar />
       <div>
         <Spotlight className='-top-40 -left-10 md:-left-32 
@@ -49,7 +49,7 @@ const Hero = () => {
     <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center z-1'>
       <h2 className='uppercase tracking-widest text-xs text-center
       text-blue-100 max-w-80'>
-        Dynamic Web Magic with Next.js
+        Dynamic Web Magic With Next.js
       </h2>
       <TextGenerateEffect 
       className='text-center text-[24px] md:text-3xl lg:text-4xl' 
@@ -58,10 +58,10 @@ const Hero = () => {
       />
       <p className='text-center md:tracking-wider mb-2 md:text-sm lg:text-lg'>
         Hi, I&apos;m Sahan Weerasinghe, a passionate full stack developer with a knack for building stunning, user-friendly, and high-performance web applications.</p>
-        <div className='flex space-x-8 mt-4 mb-0' >
+        <div className='flex space-x-10 mt-4 mb-0' >
           <a href="https://github.com/WeerasingheMSC" 
-          className='inline-block transform transition-transform duration-300 hover:-translate-y-2'>
-          <FaGithub className='text-4xl text-fuchsia-700 transition-colors duration-300 mb-4' />
+          className='inline-block transform transition-transform duration-300 hover:-translate-y-2 '>
+          <FaGithub className='text-4xl text-fuchsia-700 transition-colors duration-300 mb-4 rounded-full' />
           </a>
           <a href="https://www.linkedin.com/in/mscweerasinghe/" 
           className='inline-block transform transition-transform duration-300 hover:-translate-y-2'>
