@@ -83,7 +83,7 @@ const Hero = () => {
               <Button  title="Hire me"
               icon={<FaLocationArrow className='max-w-4 mt-1'/>}
               position="right"
-              otherClasses='pl-12 w-45 text-white'
+              otherClasses='pl-12 w-45 md:pl-11 text-white'
               />
               </a>
               <a href="#about">
