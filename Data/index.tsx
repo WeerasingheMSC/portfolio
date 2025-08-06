@@ -75,15 +75,15 @@ export const projects = [
     title: "Travel Booking Sri Lanka",
     des: "Special client project for a travel booking website in Sri Lanka, featuring a modern design and advanced booking functionalities.",
     img: "/Project_01.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/AntDesign.svg","/nodejs.svg","/Express.webp","Mongodb.svg","Firebase.png"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/AntDesign.svg","/nodejs.svg","/Express.webp","mongodb.svg","Firebase.png"],
     link: "travelbookingsrilanka.com",
   },
   {
     id: 2,
     title: "Simsyn Partner Portal",
     des: "A partner portal for Simsyn, designed to streamline partner interactions and enhance collaboration.",
-    img: "/simsyn.png",
-    iconLists: ["/re.svg", "/AntDesign.svg", "/nodejs.svg","/Express.webp", "/Mongodb.svg", "/aws.png"],
+    img: "/Simsyn.png",
+    iconLists: ["/re.svg", "/AntDesign.svg", "/nodejs.svg","/Express.webp", "/mongodb.svg", "/aws.png"],
     link: "/ui.yoom.com",
   },
   {
