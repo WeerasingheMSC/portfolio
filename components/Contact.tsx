@@ -43,9 +43,11 @@ const Contact = () => {
       console.log('SUCCESS!', response.status, response.text);
       setStatus('Message sent successfully! I\'ll get back to you soon.');
       setFormData({ name: '', email: '', message: '' });
+      setTimeout(() => setStatus(''), 5000); // Clear status after 5 seconds
     } catch (error) {
       console.log('FAILED...', error);
       setStatus('Failed to send message. Please try again.');
+      setTimeout(() => setStatus(''), 5000); // Clear status after 5 seconds
     } finally {
       setIsLoading(false);
     }

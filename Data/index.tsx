@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Simsyn Partner Portal",
     des: "A partner portal for Simsyn, designed to streamline partner interactions and enhance collaboration.",
-    img: "/p2.svg",
+    img: "/simsyn.png",
     iconLists: ["/re.svg", "/AntDesign.svg", "/nodejs.svg","/Express.webp", "/Mongodb.svg", "/aws.png"],
     link: "/ui.yoom.com",
   },
