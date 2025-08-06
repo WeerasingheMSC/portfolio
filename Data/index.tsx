@@ -197,7 +197,7 @@ export const Skill = [
     title: "Database Management",
     desc: "Familiar with MongoDB, Firebase, AWS, PostgreSQL,MySQL for storing, retrieving, and managing structured and unstructured data in web applications.",
     className: "md:col-span-2",
-   iconLists: ["/mongodb.svg","/firebase.png","/aws.png", "/postg.png","msql.png"],
+   iconLists: ["/mongodb.svg","/Firebase.png","/aws.png", "/postg.png","msql.png"],
   },
 ];
 
