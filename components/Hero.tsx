@@ -87,7 +87,7 @@ const Hero = () => {
               otherClasses='pl-12 w-45 md:pl-11 text-white'
               />
               </a>
-              <a href="MSC_cv.pdf" download="MSC_cv.pdf">
+              <a href="MSC_CV.pdf" download="MSC_cv.pdf">
               <Button  title="Download CV"
               icon={<FaDownload className='max-w-4 mt-1'/>}
               position="right"
