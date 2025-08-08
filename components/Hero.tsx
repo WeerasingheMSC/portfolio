@@ -8,6 +8,7 @@ import Navbar from './ui/Navbar'
 import { FaGithub,FaFacebook,FaLinkedin,FaTwitter,FaDownload } from 'react-icons/fa'
 
 
+
 const Hero = () => {
   return (
     <div id="Home" className={`pb-20 pt-36`}>
@@ -79,14 +80,14 @@ const Hero = () => {
 
 
           <div className='flex flex-col md:flex-row items-center justify-center gap-4 mt-6'>
-              <a href="#about">
+              <a href="#contact">
               <Button  title="Hire me"
               icon={<FaLocationArrow className='max-w-4 mt-1'/>}
               position="right"
               otherClasses='pl-12 w-45 md:pl-11 text-white'
               />
               </a>
-              <a href="#about">
+              <a href="MSC_cv.pdf" download="MSC_cv.pdf">
               <Button  title="Download CV"
               icon={<FaDownload className='max-w-4 mt-1'/>}
               position="right"

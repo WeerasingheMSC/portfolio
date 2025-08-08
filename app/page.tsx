@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import MyApporach from "@/components/MyApporach";
 import Contact from "@/components/Contact";
 import PortfolioLoader from "@/components/PortfolioLoader";
+import Chatbot from "@/components/Chatbot";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           <Skills />
           <MyApporach />
           <Contact />
+          <Chatbot/>
         </div>
       </main>
     </PortfolioLoader>
