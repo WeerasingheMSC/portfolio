@@ -36,7 +36,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-8 sm:px-4 flex items-center justify-between h-16">
         {/* Logo or Brand */}
         <Link href="/" className="text-2xl font-stretch-expanded font-bold bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-        Portfolio
+        MSC Portfolio
         </Link>
 
         {/* Desktop Links */}

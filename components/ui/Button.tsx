@@ -11,7 +11,7 @@ const Button = ({
 ) => {
   return (
     <div>
-  <button className="p-[3px] relative md:w-60 md:mt-10 gap-2 w-full overflow-hidden rounded-lg">
+  <button className="p-[3px] relative md:w-70 md:mt-10 gap-2 w-full overflow-hidden rounded-lg">
     {/* Animated gradient border */}
     <div className="absolute inset-0 rounded-lg animated-gradient-border" />
     {/* Button content */}

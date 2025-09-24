@@ -88,8 +88,8 @@ const Hero = () => {
               />
               </a>
               <a href="MSC_CV.pdf" download="MSC_cv.pdf">
-              <Button  title="Download CV"
-              icon={<FaDownload className='max-w-4 mt-1'/>}
+              <Button  title="Download Resume"
+              icon={<FaDownload className='max-w-20 mt-1'/>}
               position="right"
               otherClasses='bg-black'
               />

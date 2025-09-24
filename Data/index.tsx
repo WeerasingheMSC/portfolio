@@ -84,7 +84,7 @@ export const projects = [
     des: "A partner portal for Simsyn, designed to streamline partner interactions and enhance collaboration.",
     img: "/Simsyn.png",
     iconLists: ["/re.svg", "/AntDesign.svg", "/nodejs.svg","/Express.webp", "/mongodb.svg", "/aws.png"],
-    link: "/ui.yoom.com",
+    link: "https://simsyn.com/",
   },
   {
     id: 3,
@@ -92,15 +92,15 @@ export const projects = [
     des: "A personal portfolio website showcasing my skills, projects, and experience in web development.",
     img: "/Project_3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://www.mscweerasinghe.tech/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
+    title: "SkillSync - Ai Interview Platform",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    img: "/Ai.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://ai-interviews-ten.vercel.app/",
   },
 ];
 
