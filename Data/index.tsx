@@ -76,7 +76,7 @@ export const projects = [
     des: "Special client project for a travel booking website in Sri Lanka, featuring a modern design and advanced booking functionalities.",
     img: "/Project_01.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/AntDesign.svg","/nodejs.svg","/Express.webp","mongodb.svg","Firebase.png"],
-    link: "travelbookingsrilanka.com",
+    link: "https://travelbookingsrilanka.com/",
   },
   {
     id: 2,
@@ -91,16 +91,24 @@ export const projects = [
     title: "My Portfolio",
     des: "A personal portfolio website showcasing my skills, projects, and experience in web development.",
     img: "/Project_3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://www.mscweerasinghe.tech/",
   },
   {
     id: 4,
     title: "SkillSync - Ai Interview Platform",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "This platform serves as an end-to-end solution by combining real-time AI interview simulation,career road map simulation and Career Readiness Assessment the with a dedicated beginner support system, offering both practice and preparation in one place.",
     img: "/Ai.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg","Firebase.png", "/vapi-ai.webp"],
     link: "https://ai-interviews-ten.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "Prosoter - Smart coin sorting Machine",
+    des: "A Smart Coin Sorting Machine designed to accurately and efficiently sort Sri Lankan coins with intelligent automation, energy efficiency, and enhanced security.",
+    img: "/Prosorter.png",
+    iconLists: ["/html1.png", "/css.svg","JS.png","/php.png", "/Firebase.png"],
+    link: "https://github.com/Rashindu00/Prosorter/",
   },
 ];
 
