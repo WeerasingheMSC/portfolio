@@ -88,6 +88,14 @@ export const projects = [
   },
   {
     id: 3,
+    title: "VX - Auto Mobile Management System",
+    des: "An Auto Mobile Management System that streamlines vehicle management tasks, enhances efficiency, and improves overall operations for automotive businesses.",
+    img: "/VX.png",
+    iconLists: ["/next.svg","/spring.webp","/ts.svg","/tail.svg", "/postg.png","/dock.svg","Kubernetes.png"],
+    link: "https://github.com/WeerasingheMSC/ASMS_Frontend",
+  },
+  {
+    id: 4,
     title: "My Portfolio",
     des: "A personal portfolio website showcasing my skills, projects, and experience in web development.",
     img: "/Project_3.png",
@@ -95,7 +103,7 @@ export const projects = [
     link: "https://www.mscweerasinghe.tech/",
   },
   {
-    id: 4,
+    id: 5,
     title: "SkillSync - Ai Interview Platform",
     des: "This platform serves as an end-to-end solution by combining real-time AI interview simulation,career road map simulation and Career Readiness Assessment the with a dedicated beginner support system, offering both practice and preparation in one place.",
     img: "/Ai.png",
@@ -103,13 +111,22 @@ export const projects = [
     link: "https://ai-interviews-ten.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Prosoter - Smart coin sorting Machine",
     des: "A Smart Coin Sorting Machine designed to accurately and efficiently sort Sri Lankan coins with intelligent automation, energy efficiency, and enhanced security.",
     img: "/Prosorter.png",
     iconLists: ["/html1.png", "/css.svg","JS.png","/php.png", "/Firebase.png"],
     link: "https://github.com/Rashindu00/Prosorter/",
   },
+   {
+    id: 7,
+    title: "Taskly - Task Management App",
+    des: "A task management application that helps users track their tasks efficiently with a user-friendly interface and seamless functionality.Fully dockerized for easy deployment.",
+    img: "/Taskly.png",
+    iconLists: ["/re.svg","/nodejs.svg","/Express.webp","/ts.svg","/tail.svg", "/postg.png","/dock.svg"],
+    link: "https://github.com/WeerasingheMSC/coveragX_Taskly.git",
+  }
+
 ];
 
 export const testimonials = [
