@@ -378,7 +378,7 @@ function SimpleLoadingScreen({ progress = 0 }: LoadingScreenProps) {
               animation: 'subtitleFloat 4s infinite ease-in-out'
             }}
           >
-            Full Stack Developer & UI/UX Designer
+            Full Stack Developer & DevOps Entuisiast
           </p>
         </div>
 

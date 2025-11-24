@@ -53,12 +53,12 @@ const Hero = () => {
         Dynamic Web Magic With Next.js
       </h2>
       <TextGenerateEffect 
-      className='text-center text-[24px] md:text-3xl lg:text-4xl' 
-      words='Transforming Concepts into countless User
-      Experiences'
+      className='text-center text-[28px] md:text-4xl lg:text-5xl' 
+      words='Hello, I&apos;m Sahan
+      Weerasinghe'
       />
-      <p className='text-center md:tracking-wider mb-2 md:text-sm lg:text-lg'>
-        Hi, I&apos;m Sahan Weerasinghe, a passionate full stack developer with a knack for building stunning, user-friendly, and high-performance web applications.</p>
+      <p className='text-center md:tracking-wider mb-10 md:text-sm lg:text-lg'>
+        A passionate Full Stack developer and DevOps enthusiast with a knack for building stunning, user-friendly, and high-performance web applications.</p>
         <div className='flex space-x-10 mt-4 mb-0' >
           <a href="https://github.com/WeerasingheMSC" 
           className='inline-block transform transition-transform duration-300 hover:-translate-y-2 '>
@@ -79,7 +79,7 @@ const Hero = () => {
           </div>
 
 
-          <div className='flex flex-col md:flex-row items-center justify-center gap-4 mt-6'>
+          <div className='flex flex-col md:flex-row items-center justify-center gap-4 mt-8'>
               <a href="#contact">
               <Button  title="Hire me"
               icon={<FaLocationArrow className='max-w-4 mt-1'/>}
