@@ -125,6 +125,14 @@ export const projects = [
     img: "/Taskly.png",
     iconLists: ["/re.svg","/nodejs.svg","/Express.webp","/ts.svg","/tail.svg", "/postg.png","/dock.svg"],
     link: "https://github.com/WeerasingheMSC/coveragX_Taskly.git",
+  },
+  {
+    id: 8,
+    title: "Weather App",
+    des: "The app retrieves real time weather data from the Open Meteo API, based on dynamic coordinates derived from the index number. The application supports online weather updates and offline functionality using local caching",
+    img: "/Flutter.png",
+    iconLists: ["/F.png","/html1.png","/css.svg","/tail.svg","MU.png"],
+    link: "https://github.com/WeerasingheMSC/WeatherApp_Flutter",
   }
 
 ];
