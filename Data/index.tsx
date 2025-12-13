@@ -223,7 +223,7 @@ export const Skill = [
     title: "Back End Development",
     desc: "Hands-on experience with Node.js, Express.js, and Spring Boot for building RESTful APIs, managing server-side logic, and connecting with databases for full-stack applications.",
     className: "md:col-span-2", // change to md:col-span-2
-    iconLists: ["/nodejs.svg","/Express.webp","/re.svg", "/spring.webp"],
+    iconLists: ["/nodejs.svg","/Express.webp", "/spring.webp"],
   },
   {
     id: 4,
