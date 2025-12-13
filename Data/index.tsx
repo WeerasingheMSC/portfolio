@@ -128,7 +128,7 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Weather App",
+    title: "Weather Mobile App",
     des: "The app retrieves real time weather data from the Open Meteo API, based on dynamic coordinates derived from the index number. The application supports online weather updates and offline functionality using local caching",
     img: "/Flutter.png",
     iconLists: ["/F.png","/html1.png","/css.svg","/tail.svg","MU.png"],
